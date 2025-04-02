@@ -1,6 +1,6 @@
 const http = require("http");
 const mongoose = require("mongoose");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 mongoose.connect("mongodb://localhost:27017/customerDB", {
   useNewUrlParser: true,
